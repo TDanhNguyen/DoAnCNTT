@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+@import
+	url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap")
+	;
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px #111;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+.navbar-brand {
+	font-family: 'Akaya Telivigala', cursive;
+	font-size: 30px;
+}
+
+ion-icon {
+	font-size: 25px;
+	padding: 4px;
+}
+
+#navbarMenu ul li a {
+	position: relative;
+}
+
+#navbarMenu ul li a::after {
+	content: '';
+	display: block;
+	height: 2px;
+	background-color: black;
+	width: 0px;
+	margin-top: 1px;
+}
+
+#navbarMenu ul li a:hover::after {
+	width: 100%;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+.dropdown-item:active {
+	background-color: black !important;
+	color: white;
+}
+
+.nav-link:hover {
+	color: black !important;
+}
+
+#dropdownMenuButton2 {
+	margin: 0 auto !important;
+	padding: 0 10px;
+}
+
+.Cart {
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	margin: 0 10px 0 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	color:black;
+}
+
+.Cart:hover {
+	background-color: black;
+	color: white;
+	border-radius: 2rem;
+	transition: 1s;
+}
+
+.Cart:hover ~ .countCart {
+	transform: translateY(10px) !important;
+	transition: 1s;
+}
+
+.countCart {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: red;
+	color: white;
+	width: 25px;
+	height: 25px;
+	border-radius: 2rem;
+	z-index: 3;
+	font-size: 11px;
+}
+
+h6 {
+	border-bottom: 2px solid white;
+	width: fit-content;
+	user-select: none;
+}
+
+.Footer {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 14px;
+	color: white;
+	background-color: black;
+	padding-top: 50px;
+	padding-bottom: 80px;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.Footer__Header {
+	margin-bottom: 30px;
+}
+
+.Footer_Body {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.Footer__About-Logo {
+	display: flex;
+	align-items: center;
+	font-family: 'Akaya Telivigala', cursive;
+	font-size: 45px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+.Footer__About-Logo ion-icon {
+	font-size: 30px;
+}
+
+.Footer__About-Logo:hover {
+	color: white;
+}
+
+.Footer__About-Contact {
+	display: flex;
+	flex-direction: column;
+}
+
+.Logo_icon {
+	font-size: 30px;
+}
+
+.Social__Contact {
+	display: flex;
+	flex-direction: column;
+}
+
+.Social {
+	display: flex;
+	align-items: center;
+	font-size: 13px;
+	margin-bottom: 5px;
+	text-decoration: none;
+	color: white;
+}
+
+.Social ion-icon {
+	font-size: 25px;
+}
+
+.Social:hover {
+	color: white;
+}
+
+.Footer__About-Link {
+	list-style-type: none;
+	text-decoration: none;
+	color: white;
+	margin-bottom: 5px;
+}
+
+.Footer__About-Link:hover {
+	color: white;
+}
+
+.facebook {
+	color: #3b5998;
+}
+
+.mail {
+	color: #EA4335;
+}
+
+@media screen and (max-width: 413px) {
+}
