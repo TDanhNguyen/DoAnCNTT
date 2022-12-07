@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/main/java/JavaWebMVC/API=UTF-8
+encoding//src/main/java/JavaWebMVC/Controller/HomeController.java=UTF-8
+encoding//src/main/java/Model/Pagination.java=UTF-8
+encoding//src/main/webapp/WEB-INF/views/user/profile.jsp=UTF-8
+separateDerivedEncodings=true
